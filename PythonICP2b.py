@@ -16,7 +16,7 @@ while(ip!='q'):
         try:
             print("we pop the element", str1.pop())
         except Exception as e:
-            print(e)
+            print(e)     #in case of empty stack
     elif (ip == "3"):
         ip1=input("input a value")
         str1.append(ip1)
@@ -43,7 +43,7 @@ while(ip!='q'):
         try:
             print("we pop the element", qq1.pop(0))
         except Exception as e:
-            print(e)
+            print(e)    #in case of empty queue
     elif (ip == "3"):
         ip1=input("input a value")
         qq1.append(ip1)
