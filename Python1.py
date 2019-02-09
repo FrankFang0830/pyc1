@@ -1,11 +1,11 @@
-print('I \'m Peihao Fang') # I'm Peihao Fang
+print('I \"m Peihao Fang') # I'm Peihao Fang
 
 first=input("please input your first name")
 family=input("please input your family name")
 print(first[::-1],family[::-1])
 
-first=int(input("please input 1st number"))
-family=int(input("please input 2nd number"))
+firstNum=int(input("please input 1st number"))
+secondNum=int(input("please input 2nd number"))
 print("The result by multiplication is",first*family)
 
 
