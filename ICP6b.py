@@ -46,3 +46,8 @@ print ("R^2 is: \n", model.score(X_test, y_test))
 predictions = model.predict(X_test)
 from sklearn.metrics import mean_squared_error
 print ('RMSE is: \n', mean_squared_error(y_test, predictions))
+
+actual_values = y_test
+plt.scatter(predictions, actual_values, alpha=.75,
+            color='b') #alpha helps to show overlapping data
+plt.show()
